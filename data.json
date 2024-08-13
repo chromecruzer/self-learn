@@ -97,6 +97,182 @@
         { "american": "windshield", "british": "windscreen", "indian": "windscreen" },
         { "american": "gasoline", "british": "petrol", "indian": "petrol" },
         { "american": "license plate", "british": "number plate", "indian": "number plate" },
-        { "american": "traffic circle", "british": "roundabout", "indian": "roundabout" }
+        { "american": "traffic circle", "british": "roundabout", "indian": "roundabout" },
+         {
+        "american": "Can you tell me how to get to the nearest gas station?",
+        "british": "Could you direct me to the nearest petrol station?",
+        "indian": "Can you please tell me the way to the nearest petrol pump?"
+    },
+    {
+        "american": "I'd like to order fries and a soda.",
+        "british": "I’ll have some chips and a fizzy drink.",
+        "indian": "I want to order some fries and a cold drink."
+    },
+    {
+        "american": "Could you pick up some groceries on your way home?",
+        "british": "Could you grab some shopping on your way back?",
+        "indian": "Can you get some vegetables and groceries on your way home?"
+    },
+    {
+        "american": "The elevator is on the left.",
+        "british": "The lift is on the left-hand side.",
+        "indian": "The lift is on the left side."
+    },
+    {
+        "american": "I'll call you on your cell phone.",
+        "british": "I’ll ring you on your mobile.",
+        "indian": "I will call you on your mobile."
+    },
+     {
+        "american": "I'm going to take the elevator up.",
+        "british": "I'm going to take the lift up.",
+        "indian": "I will take the lift upstairs."
+    },
+    {
+        "american": "Do you have any cookies?",
+        "british": "Do you have any biscuits?",
+        "indian": "Do you have any biscuits?"
+    },
+    {
+        "american": "She lives in an apartment downtown.",
+        "british": "She lives in a flat in the city centre.",
+        "indian": "She lives in a flat in the city center."
+    },
+    {
+        "american": "I need to buy some new sneakers.",
+        "british": "I need to buy some new trainers.",
+        "indian": "I need to buy new sports shoes."
+    },
+    {
+        "american": "The movie starts at 7 PM.",
+        "british": "The film starts at 7 PM.",
+        "indian": "The movie starts at 7 PM."
+    },
+    {
+        "american": "I'll check the mail when I get home.",
+        "british": "I'll check the post when I get home.",
+        "indian": "I will check the post when I reach home."
+    },
+    {
+        "american": "We should meet at the gas station.",
+        "british": "We should meet at the petrol station.",
+        "indian": "We should meet at the petrol pump."
+    },
+    {
+        "american": "He was driving on the freeway.",
+        "british": "He was driving on the motorway.",
+        "indian": "He was driving on the highway."
+    },
+    {
+        "american": "Can you put this in the trunk of the car?",
+        "british": "Can you put this in the boot of the car?",
+        "indian": "Can you put this in the boot of the car?"
+    },
+    {
+        "american": "I need to go to the restroom.",
+        "british": "I need to go to the toilet.",
+        "indian": "I need to go to the washroom."
+    },
+    {
+        "american": "Let's take a walk on the sidewalk.",
+        "british": "Let's take a walk on the pavement.",
+        "indian": "Let's walk on the footpath."
+    },
+    {
+        "american": "Could you pass me the flashlight?",
+        "british": "Could you pass me the torch?",
+        "indian": "Can you pass me the torch?"
+    },
+    {
+        "american": "We need to change the tire.",
+        "british": "We need to change the tyre.",
+        "indian": "We need to change the tyre."
+    },
+    {
+        "american": "He’s wearing a sweater.",
+        "british": "He’s wearing a jumper.",
+        "indian": "He is wearing a sweater."
+    },
+    {
+        "american": "We’re going on vacation next week.",
+        "british": "We’re going on holiday next week.",
+        "indian": "We are going on a holiday next week."
+    },
+    {
+        "american": "I need an eraser to correct this.",
+        "british": "I need a rubber to correct this.",
+        "indian": "I need an eraser to correct this."
+    },
+    {
+        "american": "Let's take the elevator.",
+        "british": "Let's take the lift.",
+        "indian": "Let's take the lift."
+    },
+    {
+        "american": "I’m going to buy a flashlight.",
+        "british": "I’m going to buy a torch.",
+        "indian": "I am going to buy a torch."
+    },
+    {
+        "american": "We need to get in line.",
+        "british": "We need to queue up.",
+        "indian": "We need to stand in the queue."
+    },
+    {
+        "american": "She lives on the first floor.",
+        "british": "She lives on the ground floor.",
+        "indian": "She lives on the ground floor."
+    },
+    {
+        "american": "I want a side of French fries.",
+        "british": "I want a side of chips.",
+        "indian": "I want a side of fries."
+    },
+    {
+        "american": "We took the elevator to the top floor.",
+        "british": "We took the lift to the top floor.",
+        "indian": "We took the lift to the top floor."
+    },
+    {
+        "american": "I’m going to the drugstore to get medicine.",
+        "british": "I’m going to the chemist to get medicine.",
+        "indian": "I am going to the medical store to get some medicine."
+    },
+    {
+        "american": "He’s a good soccer player.",
+        "british": "He’s a good footballer.",
+        "indian": "He is a good football player."
+    },
+    {
+        "american": "I parked the car in the parking lot.",
+        "british": "I parked the car in the car park.",
+        "indian": "I parked the car in the parking area."
+    },
+    {
+        "american": "We need to buy some diapers for the baby.",
+        "british": "We need to buy some nappies for the baby.",
+        "indian": "We need to buy some diapers for the baby."
+    },
+    {
+        "american": "Do you want a cookie?",
+        "british": "Do you want a biscuit?",
+        "indian": "Do you want a biscuit?"
+    },
+    {
+        "american": "The movie was amazing!",
+        "british": "The film was brilliant!",
+        "indian": "The movie was superb!"
+    },
+    {
+        "american": "We need to fix the faucet.",
+        "british": "We need to fix the tap.",
+        "indian": "We need to fix the tap."
+    },
+    {
+        "american": "I’m going to put this in the trunk.",
+        "british": "I’m going to put this in the boot.",
+        "indian": "I will put this in the boot."
+    }
+        
     ]
 }
