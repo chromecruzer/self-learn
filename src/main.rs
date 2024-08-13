@@ -3,6 +3,7 @@
 use rocket::response::content::RawHtml;
 use reqwest;
 use serde::Deserialize;
+use std::env;
 
 #[derive(Deserialize)]
 struct Word {
@@ -158,6 +159,17 @@ async fn home() -> Result<RawHtml<String>, RawHtml<String>> {
 
 // Rocket launch configuration
 #[launch]
-fn rocket() -> _ {
-    rocket::build().mount("/", routes![home, new_words])
+fn rocket() -> rocket::Rocket<rocket::Build> {
+    // Read the port from the environment variable 'PORT' provided by Render
+    let port = env::var("PORT")
+        .unwrap_or_else(|_| "8000".to_string())
+        .parse::<u16>()
+        .expect("Invalid port number");
+
+    rocket::build()
+        .configure(rocket::Config {
+            port,
+            ..rocket::Config::default()
+        })
+        .mount("/", routes![home, new_words])
 }
