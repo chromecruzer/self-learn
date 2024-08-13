@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download PDF</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        th {
+            background: linear-gradient(to right, #FF8C00, #FF6347);
+            color: white;
+        }
+        td {
+            background: linear-gradient(to right, #FFFAF0, #FFFFE0);
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .download-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <table id="wordTable">
+        <thead>
+            <tr>
+                <th>American</th>
+                <th>British</th>
+                <th>Indian</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be dynamically added here -->
+        </tbody>
+    </table>
+    <div class="button-container">
+        <button class="download-btn" onclick="downloadPDF()">Download as PDF</button>
+    </div>
+    
+    <!-- Load jsPDF and jsPDF-AutoTable -->
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script src="https://unpkg.com/jspdf-autotable@latest/dist/jspdf.plugin.autotable.min.js"></script>
+    
+    <script>
+        // Function to generate and download PDF
+        function downloadPDF() {
+            // Access the jsPDF instance from window
+            const { jsPDF } = window.jspdf;
+            
+            // Create a new jsPDF instance
+            const doc = new jsPDF();
+            
+            // Generate the PDF with autoTable
+            doc.autoTable({ html: '#wordTable' });
+            
+            // Save the PDF
+            doc.save('table.pdf');
+        }
+    </script>
+</body>
+</html>
