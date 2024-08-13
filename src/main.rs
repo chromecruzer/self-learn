@@ -161,7 +161,7 @@ async fn home() -> Result<RawHtml<String>, RawHtml<String>> {
 #[launch]
 fn rocket() -> rocket::Rocket<rocket::Build> {
     // Read the port from the environment variable 'PORT' provided by Render
-    let port = env::var("PORT")
+    let port = env::var("port")
         .unwrap_or_else(|_| "8000".to_string())
         .parse::<u16>()
         .expect("Invalid port number");
